@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    outline: #3882F6 solid;
+    /*outline: #3882F6 solid;*/
 }
 
 body {
@@ -30,14 +30,17 @@ body {
     align-items: center;
     font-size: 24px;  
     margin-bottom: 150px;  
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
+.logo {
+    font-weight: bolder;
+}
 
 ul {
     display: flex;
     margin-left: auto;
-    gap: 20px;
+    gap: 30px;
 }
 
 li {
@@ -62,6 +65,7 @@ a {
     color: white;
     justify-content: stretch;
     margin-bottom: 100px;
+    gap: 25px;
 }
 
 .hero-content {
@@ -88,11 +92,6 @@ a {
 img {
     max-width: 100%;
     height: auto;
-}
-
-.hero-image img {
-
-
 }
 
 button {
@@ -133,4 +132,54 @@ button {
 
 .img-subtext {
     text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 800px;
+    gap: 12px;
+}
+
+.quote-container .attribution {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.cta-section {
+    
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.cta-title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cta-button {
+    margin-left: auto;
+    border: solid;
+    border-color: #F9FAF8;
 }
