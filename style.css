@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    outline: #3882F6 solid;
 }
 
 body {
@@ -60,7 +61,7 @@ a {
     flex-wrap: nowrap;
     color: white;
     justify-content: stretch;
-
+    margin-bottom: 100px;
 }
 
 .hero-content {
@@ -77,24 +78,21 @@ a {
     margin: 15px 0;
 }
 
-.empty {
-    flex: 1;
-}
-
 .hero-image {
-    display: flex;
-    margin-bottom: 100px;
-    flex: 3;
+    flex-basis: 600px;
+    margin-left: auto;
+    min-width: 400px;
+    min-height: 269px;
 }
 
 img {
-    max-width: 100%;`
+    max-width: 100%;
     height: auto;
 }
 
 .hero-image img {
-    width: 750px;
-    height: auto;
+
+
 }
 
 button {
